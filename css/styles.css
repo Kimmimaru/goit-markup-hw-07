@@ -26,8 +26,7 @@ ul {
 
 img {
     display: block;
-    border:none;
-    max-width: 100%;
+    border:none
 }
 
 
@@ -36,69 +35,19 @@ button {
 }
 
 
-@media screen and (min-width:428px) {
-  .container {
-  width: 428px;
-  margin-left: auto;
-  margin-right: auto;
-  }
-}
-
-@media screen and (min-width:768px) {
-  .container {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width:1158px) {
-  .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
-/*
 .container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
-*/
+
 
 body {
     font-family: "Roboto",sans-serif;
     color: #434455;
     background-color:#FFFFFF;
 }
-
-
- @media screen and (max-width: 767px){
-    .header{
-        padding-top: 24px;
-        padding-bottom: 22px;
-      }
-
-
-    .list {
-        display: none;
-    }
-  
-       
-  
-    .mobile-menu-open {
-        border: none;
-        background-color: transparent;
-        padding: 0;
-        align-items: center;
-        line-height: 0;
-     }
-
-
-
- }
-
 
 
 .header {
@@ -1144,3 +1093,4 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
+

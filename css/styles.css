@@ -1310,10 +1310,12 @@ body {
 
     .footer > .container {
         display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: flex-start;
+        gap: 24px;
+        padding-left: 93px;
     }
     
     
@@ -1328,6 +1330,7 @@ body {
     
     .foot-r {
         margin-bottom: 72px;
+        margin-left: 24px;
     }
     
     
@@ -1420,14 +1423,16 @@ body {
     
     .foot-form {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 24px;
     }
     
     
     
     .foot-input {
+        min-width: 264px;
         width: 100%;
         height: 40px;
         border: 1px solid #ffffff;
@@ -1440,6 +1445,7 @@ body {
         border-radius: 4px;
         color: #ffffff;
         margin-bottom: 16px;
+        
     }
     
     
@@ -1449,7 +1455,7 @@ body {
     
     
     .butt-plan {
-        margin: 0 auto;
+        margin: 0;
         min-width: 165px;
         height: 40px;
         display: flex;
@@ -1467,10 +1473,31 @@ body {
         border-radius: 4px;
         transition: var(--o-transform-link-background);
     }
+
+    .modal {
+        min-width: 408px;
+    }
+
+
+    .portfolio-butt-list {
+        justify-content: center;
+        margin-bottom: 68px;
+    }
     
 
+    .portfolio-punct-list {
+        display: flex;       
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: none;
+        justify-content: none;
 
+        padding-bottom: 120px;
+        column-gap: 24px;
+        row-gap: 48px;
+        flex-basis: calc((100% - 24px) / 3);
 
+    }
 
 }
 

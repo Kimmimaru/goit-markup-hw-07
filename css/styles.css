@@ -1910,9 +1910,16 @@ body {
     
     
     .footer>.container {
+
+        
         display: flex;
-        align-items: baseline;
         flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: baseline;
+        justify-content: flex-start;
+        gap: 24px;
+        padding-left: 93px;
+
     }
     
     

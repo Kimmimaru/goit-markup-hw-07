@@ -1486,18 +1486,25 @@ body {
     
 
     .portfolio-punct-list {
-        display: flex;       
+        display: flex;
+        justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: none;
-        justify-content: none;
-
-        padding-bottom: 120px;
         column-gap: 24px;
-        row-gap: 48px;
-        flex-basis: calc((100% - 24px) / 3);
+        row-gap: 72px;    
+        align-items: flex-start;
 
     }
+
+
+    .port-punct {
+        display: inline-block;
+        border: 1px solid #E7E9FC;
+        width: calc((100% - 30px) / 2);
+        display: inline-block;
+    }
+
+
 
 }
 
@@ -1910,21 +1917,19 @@ body {
     
     
     .footer>.container {
-
-        
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        align-items: baseline;
-        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-left: 0;
         gap: 24px;
-        padding-left: 93px;
-
     }
-    
+
+
     
     .foot-l {
-        margin-right: 120px;
+        margin: 0;
     }
     
     
@@ -2425,13 +2430,6 @@ body {
     }
     
     
-    .info {
-        padding: 32px 16px;
-        border: 1px solid #e7e9fc;
-        border-top: none;
-    }
-    
-    
     .portfolio-list-title {
         font-weight: 500;
         font-size: 20px;
@@ -2449,111 +2447,4 @@ body {
         color: #434455;
     }
     
-    
-
 }
-
-
-
-
-/*
-
-    .mobile-menu{
-
-    }
-
-
-    .menu-close {
-
-    }
-
-
-    .menu-close-icon{
-
-    }
-
-
-    .mobile-menu-list {
-
-    }
-
-
-    .mobile-nav {
-
-    }
-
-    .mobile-navi {
-
-    }
-
-
-    .mobile-navi-link {
-
-    }
-
-
-    .mobile-cont {
-
-    }
-
-
-    .mobile-addr {
-
-    }
-
-    .mobile-addr-list {
-
-    }
-
-
-    .mobile-addr-li {
-
-    }
-
-
-    .mobile-addr-link {
-
-    }
-
-
-    .tel {
-
-    }
-
-
-    .email {
-
-    }
-
-
-    .menu-social-media {
-
-    }
-
-
-    .menu-social-list {
-
-    }
-
-
-    .social-li {
-
-    }
-
-
-    .social-list-link {
-
-    }
-
-
-    .mobile-social-icon {
-
-    }
-
-
-    .social-li:is(:hover, :focus) {
-
-    }
-  }*/
-
-
